@@ -12,4 +12,5 @@ if [ $1 != "b" ]; then
     exit 1;
 fi
 #g++ -o a -std=c++11 -Wall -W -Werror static_assert.cpp
-g++ -o a -std=c++11 -Wall -W -Werror final_override.cpp && ./a
+#g++ -o a -std=c++11 -Wall -W -Werror final_override.cpp && ./a
+g++ -o a -std=c++11 -Wall -W -Werror template_fun_default_parm.cpp && ./a
