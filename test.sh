@@ -20,4 +20,5 @@ fi
 #g++ -o a -std=c++11 -Wall -W -Werror move_semantics.cpp && ./a
 #g++ -o a -std=c++11 -Wall -W -Werror reference.cpp && ./a
 #g++ -o a -std=c++11 -Wall -W -Werror perfect_forwarding.cpp && ./a
-g++ -o a -std=c++11 -Wall -W -Werror explicit_operator.cpp && ./a
+#g++ -o a -std=c++11 -Wall -W -Werror explicit_operator.cpp && ./a
+g++ -o a -std=c++11 -Wall -W -Werror initializer_list.cpp && ./a
