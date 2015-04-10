@@ -18,4 +18,5 @@ fi
 #g++ -o a -std=c++11 -Wall -W -Werror template_parm.cpp && ./a
 #g++ -o a -std=c++11 -Wall -W -Werror inheritance_constructor.cpp && ./a
 #g++ -o a -std=c++11 -Wall -W -Werror move_semantics.cpp && ./a
-g++ -o a -std=c++11 -Wall -W -Werror reference.cpp && ./a
+#g++ -o a -std=c++11 -Wall -W -Werror reference.cpp && ./a
+g++ -o a -std=c++11 -Wall -W -Werror perfect_forwarding.cpp && ./a
