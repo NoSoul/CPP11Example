@@ -6,8 +6,8 @@ using namespace std;
 void Fun(initializer_list<int> l)
 {
     puts(__func__);
-    for(auto it = l.begin(); it != l.end(); ++it) {
-        printf("%d ", *it);
+    for(auto it : l) {
+        printf("%d ", it);
     }
     puts("");
 }
@@ -20,13 +20,13 @@ int main()
     int d{3 + 4};
     printf("%d %d %d %d\n", a, b, c, d);
     vector<int> Vectort = {1, 5, 3};
-    for(unsigned long i = 0; i < Vectort.size(); ++i) {
+    for(auto i : Vectort) {
         printf("%d ", Vectort[i]);
     }
     puts("");
     map<int, float> Map{{1, 0.1}, {3, 0.2}};
-    for(auto i = Map.begin(); i != Map.end(); ++i) {
-        printf("<%d,%f> ", i->first, i->second);
+    for(auto i : Map) {
+        printf("<%d,%f> ", i.first, i.second);
     }
     puts("");
     Fun({1, 7});
