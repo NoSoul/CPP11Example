@@ -24,4 +24,5 @@ fi
 #g++ -o a -std=c++11 -Wall -W -Werror initializer_list.cpp && ./a
 #g++ -o a -std=c++11 -Wall -W -Werror template_alias.cpp && ./a
 #g++ -o a -std=c++11 -Wall -W -Werror enum_class.cpp && ./a
-g++ -o a -std=c++11 -Wall -W -Werror auto_ptr.cpp && ./a
+#g++ -o a -std=c++11 -Wall -W -Werror auto_ptr.cpp && ./a
+g++ -o a -std=c++11 -Wall -W -Werror default_delete.cpp && ./a
